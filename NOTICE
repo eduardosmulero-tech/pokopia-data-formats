@@ -1,0 +1,57 @@
+pokopia-data-formats — on-disk data formats of Pokémon Pokopia
+==============================================================
+
+Copyright (C) 2026 eduardosmulero-tech and contributors
+
+Documentation in this repository is licensed under Creative Commons
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). See LICENSE.
+
+Any future source code published here will be licensed separately and
+explicitly; nothing in this repository should be assumed to carry a software
+license.
+
+
+WHAT THIS REPOSITORY CONTAINS
+-----------------------------
+
+Measurements and specifications written by hand, plus the small guard script
+that keeps forbidden material out of the tree.
+
+It contains no game code, no game assets, no cryptographic keys, no firmware
+and no save files. Container layout descriptions are facts derived from
+observation; the prose describing them is ours.
+
+
+UPSTREAM ATTRIBUTION
+--------------------
+
+PokoHex (https://github.com/berichan/PokoHex, GPL-3.0) is an independent save
+editor for the same game. It is cited here as prior work and as the starting
+point for the container reader. Nothing in this repository is copied from it:
+where its source is referenced, it is cited by file and line so anyone can
+check it against upstream.
+
+Conversations that seeded findings may also involve people in the Pokopia
+modding community; their input is credited in the documents where it applies.
+
+
+TRADEMARKS AND AFFILIATION
+--------------------------
+
+"Nintendo", "Nintendo Switch", "Nintendo Switch 2" and the names of Nintendo
+games are trademarks of Nintendo Co., Ltd. and/or its affiliates.
+
+This project is not affiliated with, endorsed by, or sponsored by Nintendo, and
+it is not affiliated with the authors of PokoHex or of any emulator.
+
+No keys, no decrypted content and no instructions for obtaining game data are
+published here.
+
+
+NO WARRANTY
+-----------
+
+The information here is provided "as is", without warranty of any kind. It
+describes behaviour observed on specific builds and is expected to rot as those
+builds change. Build ids and measurements are recorded alongside findings for
+exactly this reason.

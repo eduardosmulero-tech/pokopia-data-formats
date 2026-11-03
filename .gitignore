@@ -1,0 +1,71 @@
+# --- Game data: never, under any circumstances ---------------------------
+# Container payloads and indexes for Pokopia. Documentation only.
+*.bin
+*.idx
+*.BIN
+*.IDX
+*.nsp
+*.xci
+*.nca
+*.ncz
+*.nsz
+*.xcz
+*.romfs
+*.exefs
+*.npdm
+*.nso
+*.nro
+*.kip
+*.kipx
+*.cnmt*
+*.tik
+*.cert
+romfs/
+exefs/
+
+# --- Keys and secrets ----------------------------------------------------
+*.keys
+prod.keys
+title.keys
+console.keys
+keys.txt
+*.pem
+*.p12
+*.pfx
+*.key
+*.crt
+.env
+.env.*
+secrets*
+
+# --- Saves and profiles --------------------------------------------------
+*.sav
+save/
+saves/
+nand/
+profiles.dat
+*.bak
+
+# --- Local run artifacts -------------------------------------------------
+*.log
+captura*.png
+screenshot*.png
+extract/
+blobs/
+
+# --- Tooling -------------------------------------------------------------
+build/
+out/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.cache/
+
+# --- OS ------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store

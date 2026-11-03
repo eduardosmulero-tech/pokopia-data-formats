@@ -1,0 +1,23 @@
+# markdownlint-cli2 configuration.
+#
+# Rule settings must live under `config:` — this is the cli2 wrapper, and a
+# bare `MD013: false` at the top level is silently ignored, which is a fun half
+# hour to debug.
+config:
+  # Line length is not a defect in documentation: tables, log excerpts and
+  # quoted commands have to stay on one line.
+  MD013: false
+  # Duplicate headings are legitimate across sections of a long document.
+  MD024:
+    siblings_only: true
+  # Inline HTML is used in tables.
+  MD033: false
+  # Bare URLs appear in citations on purpose.
+  MD034: false
+  # Fenced blocks quote logs and shell transcripts, where a language hint adds
+  # nothing and would be wrong half the time.
+  MD040: false
+  # Bold lines used as sub-headings are a deliberate style here.
+  MD036: false
+  # Blockquotes separated by a blank line carry the "what this is not" callouts.
+  MD028: false
