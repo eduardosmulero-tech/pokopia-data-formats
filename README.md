@@ -17,7 +17,7 @@ our code.
 
 | Document | Format | State |
 |---|---|---|
-| `docs/SPEC-CONTAINER.md` | `LD_C0_R.BIN` + `LI_C0_R.IDX` (12,298 entries) | in review |
+| [`docs/SPEC-CONTAINER.md`](docs/SPEC-CONTAINER.md) | `LD_C0_R.BIN` + `LI_C0_R.IDX` (12,298 entries) | revision 1 — published |
 
 Everything here is measured against build **2.0.1a**. Formats change with game updates; each document
 records the build it was measured on.
