@@ -86,7 +86,9 @@ def main() -> int:
 
     digest = hashlib.sha256(tar_path.read_bytes()).hexdigest()
     sums = out_dir / "SHA256SUMS"
-    sums.write_text(f"{digest}  {name}\n", encoding="utf-8")
+    # newline="\n": a CRLF in this file makes `sha256sum -c` fail on every Unix
+    # reader with "no such file or directory" and a stray \r in the name.
+    sums.write_text(f"{digest}  {name}\n", encoding="utf-8", newline="\n")
 
     print(f"{name}  {len(buffer.getvalue())} B uncompressed")
     print(f"sha256 {digest}")
