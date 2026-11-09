@@ -345,5 +345,7 @@ AUDIO PROPIO (pkp snd import: MS ADPCM y KA1A)
   streams               : 18835 de 18835 internos (100.00 %)
 ```
 
+The labels are the tool's own output, quoted verbatim (it prints its CLI in Spanish).
+
 The 5 remaining banks contain only external streams, and `pkp snd import` refuses them with an
 explicit message instead of writing audio that the bank cannot address.

@@ -31,6 +31,9 @@ ficheros  : 24 .fdata, 5063190412 B
 entradas  : 79710
 ```
 
+The two labels are the tool's own output, quoted verbatim: the reference implementation prints its
+CLI in Spanish and this document does not rewrite a transcript.
+
 | Figure | Value |
 |---|---|
 | `.fdata` archives | **24** |
